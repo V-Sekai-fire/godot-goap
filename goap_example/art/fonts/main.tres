@@ -1,0 +1,8 @@
+[gd_resource type="FontFile" load_steps=2 format=2]
+
+[ext_resource type="FontFile" uid="uid://cphnrem0lrkch" path="res://goap_example/art/fonts/PressStart2P.ttf" id="1"]
+
+
+[resource]
+size = 8
+font_data = ExtResource( 1 )

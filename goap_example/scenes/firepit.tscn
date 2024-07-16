@@ -1,7 +1,8 @@
 [gd_scene load_steps=8 format=3 uid="uid://civweqo7663sk"]
 
-[ext_resource type="Texture2D" uid="uid://b153nqpuv83gr" path="res://sprites/forestDecoration_0.png" id="1"]
-[ext_resource type="Script" path="res://scenes/firepit.gd" id="2"]
+[ext_resource type="Texture2D" uid="uid://bklc1u3eawbqh" path="res://goap_example/art/sprites/forestDecoration_0.png" id="1"]
+[ext_resource type="Script" path="res://goap_example/core/firepit.gd" id="2"]
+
 
 [sub_resource type="AtlasTexture" id="1"]
 atlas = ExtResource("1")

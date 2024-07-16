@@ -11,14 +11,14 @@ config_version=5
 [application]
 
 config/name="godot-goal-oriented-action-planning"
-run/main_scene="res://scenes/main.tscn"
-config/features=PackedStringArray("4.0")
-config/icon="res://icon.png"
+run/main_scene="res://goap_example/scenes/main.tscn"
+config/features=PackedStringArray("4.3", "Double Precision")
+config/icon="res://goap_example/art/icon.png"
 
 [autoload]
 
-WorldState="*res://world/world_state.gd"
-Goap="*res://goap/goap.gd"
+WorldState="*res://goap_example/core/world/world_state.gd"
+Goap="*res://goap_example/core/goap/goap.gd"
 
 [display]
 
@@ -59,4 +59,4 @@ common/enable_pause_aware_picking=true
 [rendering]
 
 environment/defaults/default_clear_color=Color(0.333333, 0.490196, 0.333333, 1)
-environment/defaults/default_environment="res://default_env.tres"
+environment/defaults/default_environment="res://goap_example/art/default_env.tres"

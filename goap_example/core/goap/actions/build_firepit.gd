@@ -2,7 +2,7 @@ extends GoapAction
 
 class_name BuildFirepitAction
 
-const Firepit = preload("res://scenes/firepit.tscn")
+const Firepit = preload("res://goap_example/scenes/firepit.tscn")
 
 
 func get_clazz(): return "BuildFirepitAction"
